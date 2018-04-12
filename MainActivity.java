@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     public void questionOneAnswer() {
         RadioButton oneCorrectAnswer = findViewById(R.id.question_one_correct);
         if (oneCorrectAnswer.isChecked()) {
-            nmbrCorrect++;
+            nmbrCorrect += 1;
         }
     }
 
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkboxFour = findViewById(R.id.qthree_checkbox_four);
 
         if (checkboxTwo.isChecked() && checkboxThree.isChecked() && checkboxFour.isChecked() && !checkboxOne.isChecked()) {
-            nmbrCorrect++;
+            nmbrCorrect += 1;
         }
     }
 
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
     public void questionFourAnswer() {
         RadioButton fourCorrectAnswer = findViewById(R.id.question_four_true);
         if (fourCorrectAnswer.isChecked()) {
-            nmbrCorrect++;
+            nmbrCorrect += 1;
         }
     }
 
